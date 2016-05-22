@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/05/2016, 13:17:13
+    Author     : sergio
+*/
+body{
+    font: 18px Arial;
+    margin: 0 0 0 0;
+    background-color: #EEEEEE;
+}
+
+h1 {
+    margin: 0;
+    padding: 16px 0;
+    color: #000000;
+}
+
+h2 {
+    font: bold 24px Arail;
+    color: #569841;
+}
+
+a {
+    color: #3a34c3;
+    text-decoration: none;
+}
+
+a:houver {
+    text-decoration: underline;
+}
+
+.dados {
+    border-collapse: collapse;
+}
+
+.dados td, .dados th {
+    border:  1px solid #0000c6;
+    padding: 3px 7px 2px 7px;
+}
+
+.dados tr .impar td{
+    color: #000000;
+    background-color: #d4d4d9;
+}
+
+.dados tr .par td{
+    color: #000000;
+    background-color: #f6f6fa;
+}
+
+input {
+    font-size: 16px;
+    border: 1 px solid #0000c6;
+    background-color: #f6f6fa;
+}
+
+#top {
+    color: #0a1e9f;
+    background-color: #0a1e9f;
+    padding: 10px 0px 28px 10px;
+    
+}
+
+#top a {
+    color: #FFFFFF;
+    font: bold 24px Arial;
+}
+
+#conteudo {
+    margin: 0px 0px 50px 10px;
+}
